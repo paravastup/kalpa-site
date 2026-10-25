@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Help with Kalpa · Kalpa</title>
-<meta name="description" content="Support for Kalpa: getting started, widgets, Planner, reminders and how to report a problem.">
+<meta name="description" content="Support for Kalpa: getting started, widgets, Live Activities, StandBy, Siri and Shortcuts, alerts, Planner, reminders and how to report a problem.">
 <link rel="icon" href="../favicon.png" type="image/png">
 <link rel="apple-touch-icon" href="../apple-touch-icon.png">
 <link rel="stylesheet" href="../style.css">
@@ -20,7 +20,7 @@
 </header>
 <main>
 <h1>Help with Kalpa</h1>
-<p class="meta">Last updated: October 24, 2026</p>
+<p class="meta">Last updated: October 25, 2026</p>
 
 <p>Kalpa calculates your local panchang on your iPhone or iPad. If your question isn't answered here, email support@kalpapanchang.com.</p>
 <h2>Getting started</h2>
@@ -28,11 +28,38 @@
 <h2>Reading Today</h2>
 <p>Today follows the live local time. Before sunrise it still shows the previous panchang day, because the panchang day runs from sunrise to sunrise. Up next shows the nearest transition. Tap Full Panchang &amp; Muhūrtas for every transition and kālam; the information button beside each section explains it. Share day sends the city, date, time zone and times.</p>
 <h2>Other dates</h2>
-<p>Swipe the week strip, tap the date to choose any day, or use the Calendar tab. Browsed dates show their values at sunrise; tap Today to return to the live clock. Kalpa covers January 1, 2000 to December 31, 2050.</p>
+<p>Swipe left or right on Today to move to the next or previous day, tap the date to choose any day, or use the Calendar tab. Swiping the week strip only reveals more dates; tap one to select it. Browsed dates show their values at sunrise; tap Today to return to the live clock. Kalpa covers January 1, 2000 to December 31, 2050.</p>
 <h2>Widgets</h2>
 <p>Touch and hold your Home Screen, open the widget gallery, search for Kalpa and choose Daily Panchang (small or medium). You can also add it while customizing your Lock Screen. Widgets follow the real day in your saved city. Open Kalpa at least every two days so they can renew their calculations; if a widget says to open Kalpa, do so once. iOS decides exactly when widgets update.</p>
+<h2>Live Activities and Dynamic Island</h2>
+<p>A Live Activity counts down to a window on the Lock Screen and, on iPhones with a Dynamic Island, in the island. Kalpa can track Rāhu Kālam, Yamagaṇḍa, Gulika, Abhijit, Brahma Muhūrta, Durmuhūrta, Varjyam and Amṛta Kālam, one at a time. It is free.</p>
+<ul>
+<li><strong>Start:</strong> on Today, tap Track Rāhu Kālam live. For any other window, open Full Panchang &amp; Muhūrtas and tap Track on its row. Before the window starts the activity reads "starts in"; at the start it switches to "ends in" with a progress bar. Tracking another window replaces the current one.</li>
+<li><strong>Stop:</strong> tap Stop on Today, or Tracking · Stop on the row in Full Panchang. Tap the activity or the Dynamic Island to open Full Panchang.</li>
+<li><strong>Available from:</strong> iOS ends every Live Activity 8 hours after it starts, so tracking is offered only for windows that end within 8 hours. Until then Today reads "Live tracking from" a time, and the Full Panchang row reads "Available from" a time.</li>
+<li><strong>Why it ends on its own:</strong> at the end of the window the activity changes to "Ended at" the end time and the countdown stops. iOS decides when to redraw it while Kalpa is closed, so the timer can read 0:00 for a short while first; "until" still states the end time.</li>
+<li><strong>Turned off:</strong> if Kalpa says Live Activities are off, go to iOS Settings → Kalpa and turn them on.</li>
+</ul>
+<h2>StandBy</h2>
+<p>When your iPhone charges in landscape, iOS shows StandBy. Touch and hold a widget stack in StandBy and add the small Daily Panchang widget from Kalpa. It shows the Moon in its calculated phase, the tithi, when it ends and the next event. A tracked Live Activity also appears in StandBy. If the widget shows the tithi without the Moon after an update, open Kalpa once so it can renew the widget's data. Home Screen widgets look the same as before.</p>
+<h2>Siri and Shortcuts</h2>
+<p>Kalpa has three actions, found in the Shortcuts app and by voice. They use your saved city, never your location, and answer without opening the app.</p>
+<ul>
+<li><strong>Today's panchang:</strong> "Today's panchang in Kalpa" or "What's the tithi in Kalpa".</li>
+<li><strong>Check the current kālam:</strong> "Check the current kalam in Kalpa" or "What kalam is it in Kalpa". It names each window running now, when it ends and when the next Rāhu Kālam starts. Its option Also show as a notification posts the answer as a notification if notifications are already allowed; otherwise the answer appears only in Siri or Shortcuts, and the action never asks for permission.</li>
+<li><strong>Track a kālam live:</strong> "Track Rahu Kalam with Kalpa" or "Start tracking in Kalpa". Choose which window in the Shortcuts app. It follows the 8-hour rule above.</li>
+</ul>
+<p>To get a message when you leave home, open Shortcuts → Automation → New Automation → Leave → Home. Add Check the current kālam, turn on Also show as a notification, and choose Run Immediately. The Shortcuts app decides when you leave home; Kalpa never reads your location. Profile → Siri &amp; Shortcuts lists these steps in the app.</p>
 <h2>Daily reminder</h2>
 <p>In Profile → Daily reminder, choose a time and tap Enable daily reminder. It follows your device's clock, including when you travel; the panchang still uses your selected city. If notifications are off, tap Open iOS Settings. Focus and notification settings can delay or silence it. The notification never includes your name, city or times.</p>
+<h2>Kālam alerts</h2>
+<p>Kālam alerts are optional notifications that name a window and its times, such as "Rāhu Kālam in 10 minutes" with the city and the time range. In Profile → Kālam alerts, turn the main switch on, choose which of the eight windows to include, and choose the lead time: At start, or 5, 10, 15 or 30 minutes before. Only Rāhu Kālam is selected at first, with 10 minutes. It is free.</p>
+<ul>
+<li><strong>Permission:</strong> turning alerts on asks for notification permission if iOS has not asked before. If notifications are off in iOS Settings, alerts read Off; tap Open Settings, allow notifications, then turn alerts on again.</li>
+<li><strong>Schedule:</strong> alerts are for your saved city and are scheduled about a week ahead. Kalpa tops them up when you open it and when iOS runs its background refresh, which iOS times itself. Tapping an alert opens Today.</li>
+<li><strong>No sunrise:</strong> on dates when the Sun does not rise at your city, no alerts are scheduled for that date. If none of the coming days has a sunrise, the screen says so.</li>
+<li><strong>Shared limit:</strong> iOS keeps only the 64 soonest notifications for an app. Kalpa schedules at most 40 kālam alerts and leaves room for Planner reminders (up to 50) and the daily reminder. When the limit applies, the screen reads "Some alerts are scheduled later to leave room for your Planner reminders."</li>
+</ul>
 <h2>Planner, the free trial and purchases</h2>
 <p>Planner saves dates with their city, private notes and optional reminders. It is an optional one-time purchase, not a subscription.</p>
 <ul>
